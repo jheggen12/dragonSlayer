@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "92b2c22c8165266af22ffbbf05f47ce6",
+    "revision": "fb6769bf55ab3c44bc6a562546965055",
     "url": "/dragonSlayer/src/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dragonSlayer/src/static/css/2.f76ba790.chunk.css"
   },
   {
-    "revision": "f541ffb93202930ecf55",
-    "url": "/dragonSlayer/src/static/css/main.7d200c05.chunk.css"
+    "revision": "7518e86697775f61735b",
+    "url": "/dragonSlayer/src/static/css/main.9022e834.chunk.css"
   },
   {
     "revision": "3caa43b24ff21e71292b",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dragonSlayer/src/static/js/2.7d2f80f0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f541ffb93202930ecf55",
-    "url": "/dragonSlayer/src/static/js/main.1f7faff3.chunk.js"
+    "revision": "7518e86697775f61735b",
+    "url": "/dragonSlayer/src/static/js/main.66fd22b8.chunk.js"
   },
   {
     "revision": "518abf2338e466100e45",
@@ -81,7 +81,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "4574b8119afb3e8862c4016fc3cf9c41",
-    "url": "/dragonSlayer/src/static/media/lightning1.4574b811.jpg"
+    "url": "/dragonSlayer/src/static/media/lightning.4574b811.jpg"
   },
   {
     "revision": "76669a5b3ae07fb6f8c7776bfc1b8b8a",

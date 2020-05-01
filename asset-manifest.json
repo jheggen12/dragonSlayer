@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/dragonSlayer/src/static/css/main.7d200c05.chunk.css",
-    "main.js": "/dragonSlayer/src/static/js/main.1f7faff3.chunk.js",
-    "main.js.map": "/dragonSlayer/src/static/js/main.1f7faff3.chunk.js.map",
+    "main.css": "/dragonSlayer/src/static/css/main.9022e834.chunk.css",
+    "main.js": "/dragonSlayer/src/static/js/main.66fd22b8.chunk.js",
+    "main.js.map": "/dragonSlayer/src/static/js/main.66fd22b8.chunk.js.map",
     "runtime-main.js": "/dragonSlayer/src/static/js/runtime-main.d5b8236b.js",
     "runtime-main.js.map": "/dragonSlayer/src/static/js/runtime-main.d5b8236b.js.map",
     "static/css/2.f76ba790.chunk.css": "/dragonSlayer/src/static/css/2.f76ba790.chunk.css",
     "static/js/2.7d2f80f0.chunk.js": "/dragonSlayer/src/static/js/2.7d2f80f0.chunk.js",
     "static/js/2.7d2f80f0.chunk.js.map": "/dragonSlayer/src/static/js/2.7d2f80f0.chunk.js.map",
     "index.html": "/dragonSlayer/src/index.html",
-    "precache-manifest.cebf5437cf2aa0789be86c0ca56ad034.js": "/dragonSlayer/src/precache-manifest.cebf5437cf2aa0789be86c0ca56ad034.js",
+    "precache-manifest.0e9a53bf165d36a4ee0d463f6c577795.js": "/dragonSlayer/src/precache-manifest.0e9a53bf165d36a4ee0d463f6c577795.js",
     "service-worker.js": "/dragonSlayer/src/service-worker.js",
     "static/css/2.f76ba790.chunk.css.map": "/dragonSlayer/src/static/css/2.f76ba790.chunk.css.map",
-    "static/css/main.7d200c05.chunk.css.map": "/dragonSlayer/src/static/css/main.7d200c05.chunk.css.map",
+    "static/css/main.9022e834.chunk.css.map": "/dragonSlayer/src/static/css/main.9022e834.chunk.css.map",
     "static/js/2.7d2f80f0.chunk.js.LICENSE.txt": "/dragonSlayer/src/static/js/2.7d2f80f0.chunk.js.LICENSE.txt",
     "static/media/armor.png": "/dragonSlayer/src/static/media/armor.ea39ee31.png",
     "static/media/bam.jpg": "/dragonSlayer/src/static/media/bam.b043a763.jpg",
@@ -23,7 +23,7 @@
     "static/media/ghost.png": "/dragonSlayer/src/static/media/ghost.80afcc43.png",
     "static/media/gun.png": "/dragonSlayer/src/static/media/gun.99fd83c8.png",
     "static/media/landmark.jpg": "/dragonSlayer/src/static/media/landmark.e230de63.jpg",
-    "static/media/lightning1.jpg": "/dragonSlayer/src/static/media/lightning1.4574b811.jpg",
+    "static/media/lightning.jpg": "/dragonSlayer/src/static/media/lightning.4574b811.jpg",
     "static/media/poison.png": "/dragonSlayer/src/static/media/poison.76669a5b.png",
     "static/media/potion.png": "/dragonSlayer/src/static/media/potion.7af31335.png",
     "static/media/raygun.jpg": "/dragonSlayer/src/static/media/raygun.f141faac.jpg",
@@ -37,7 +37,7 @@
     "static/js/runtime-main.d5b8236b.js",
     "static/css/2.f76ba790.chunk.css",
     "static/js/2.7d2f80f0.chunk.js",
-    "static/css/main.7d200c05.chunk.css",
-    "static/js/main.1f7faff3.chunk.js"
+    "static/css/main.9022e834.chunk.css",
+    "static/js/main.66fd22b8.chunk.js"
   ]
 }
