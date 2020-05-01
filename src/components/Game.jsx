@@ -6,7 +6,7 @@ import { GameOver } from "./GameOver.jsx";
 import { Foe } from "./Foe.jsx";
 import { Header } from "./Header.jsx";
 import { Bonus } from "./Bonus.jsx";
-import lightning from "../img/lightning1.jpg";
+import lightning from "../img/lightning.jpg";
 import sword from "../img/sword.jpg";
 import dragon from "../img/dragon.jpg";
 import gun from "../img/gun.png";
@@ -210,9 +210,9 @@ export class Game extends Component {
         $(".gameOver").show();
       });
     }, 500);
-    const Record = { ...this.state.Record };
-    Record.Wins++;
-    this.setState({ Record });
+    const record = { ...this.state.record };
+    record.Wins++;
+    this.setState({ record });
   };
   handleLoss = (method) => {
     switch (method) {
@@ -274,8 +274,8 @@ export class Game extends Component {
     $("#game").hide();
   };
   handleBonusEnd = () => {
-    this.setState({ Bonus: false});
-  }
+    this.setState({ Bonus: false });
+  };
   updateRecord(result) {
     let record = { ...this.state.record };
     if (result === "Win") {
@@ -341,7 +341,7 @@ export class Game extends Component {
       $(".theirHealthBar").animate({ width: `${theirHealth}%` }, 200);
       if (newFoe) {
         this.handleLevelButtons(id);
-        $(`#foe${id}`).fadeIn(1000);
+        $(`#foe${id}`).show();
       }
     });
   };
@@ -382,8 +382,8 @@ export class Game extends Component {
     }
     if (useItem.name === "Poison" && currentFoe.name !== "Robot") {
       currentFoe.status = "Poisoned";
-      $(`#theirStatus${currentFoeId}`).html(`<img src=${this.images.poison} height='40px' width='40px' />`);
-      $(`#theirStatus${currentFoeId}`).show();
+      $(".theirStatus").html(`<img src=${this.images.poison} height='40px' width='40px' />`);
+      $(".theirStatus").show();
     }
     this.setState((prevState) => {
       return {
@@ -416,6 +416,9 @@ export class Game extends Component {
     $("#store").show();
     $("#game").hide();
     $(".gameOver").hide();
+    $("#yourStatus").html("");
+    $(".theirStatus").html("");
+    $(".theirStatus").hide();
   };
   render() {
     return (
@@ -444,7 +447,13 @@ export class Game extends Component {
         </div>
         <div id="bonus">
           {this.state.Bonus ? (
-            <Bonus onBonusChoice={this.handleBonusChoice} onBonusEnd={this.handleBonusEnd} bonusItems={[1, 2, 3, 4]} items={this.state.items} renderFoe={this.renderFoe} />
+            <Bonus
+              onBonusChoice={this.handleBonusChoice}
+              onBonusEnd={this.handleBonusEnd}
+              bonusItems={[1, 2, 3, 4]}
+              items={this.state.items}
+              renderFoe={this.renderFoe}
+            />
           ) : null}
         </div>
         <GameOver onPlayAgain={this.playAgain} />

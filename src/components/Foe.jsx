@@ -5,7 +5,7 @@ export class Foe extends React.Component {
   render() {
     const { foe } = this.props;
     const foeId = `foe${foe.id}`;
-    const statusId = `theirStatus${foe.id}`;
+    //const statusId = `theirStatus${foe.id}`;
     return (
       <div id={foeId} className="foe">
         <img src={foe.picture} className="foeImage" alt={foe.name} />
@@ -18,7 +18,7 @@ export class Foe extends React.Component {
           <div className="theirHealth">
             <div className="theirHealthBar"></div>
           </div>
-          <div id={statusId} className="theirStatus"></div>
+          <div className="theirStatus"></div>
         </div>
       </div>
     );
