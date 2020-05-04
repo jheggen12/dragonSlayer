@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fc87b5bbc20e04a3883525c9bfe73a72",
+    "revision": "b444a458614720e9522428f9c7f75719",
     "url": "/dragonSlayer/public/index.html"
   },
   {
