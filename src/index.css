@@ -269,12 +269,12 @@ img {
   cursor: pointer;
   font-weight: 700;
   font-size: 36px;
-  width: 30%;
+  width: 35%;
   border: solid white 5px;
   color: white;
   margin: 20px 50px;
   height: 200px;
-  padding: 50px;
+  padding: 50px 0px;
   display: inline-block;
   text-align: center;
 }
@@ -379,6 +379,9 @@ img {
     width: 70px;
     margin-left: 30px;
   }
+  .foe {
+    width: 320px;
+  }
   .foeImage {
     height: 70px;
     width: 70px;
@@ -391,5 +394,28 @@ img {
   .yourInfo {
     width: 70px;
     margin-left: -20px;
+  }
+  .bonusItem {
+    width: 30%;
+    margin: 20px 20px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .funds {
+    margin: 0px;
+  }
+  .nameFighter {
+    width: 240px;
+  }
+  .playingField {
+    min-width: unset;
+  }
+  .gameName {
+    font-size: 16px;
+  }
+  .bonusItem {
+    height: 100px;
+    padding: 30px 0px;
+    font-size: 16px;
   }
 }
