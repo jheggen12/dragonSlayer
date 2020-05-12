@@ -399,6 +399,9 @@ img {
     width: 30%;
     margin: 20px 20px;
   }
+  #store input {
+    margin-left: 0px;
+  }
 }
 @media only screen and (max-width: 500px) {
   .funds {
@@ -417,5 +420,10 @@ img {
     height: 100px;
     padding: 30px 0px;
     font-size: 16px;
+  }
+  .record {
+    margin: 5px;
+    font-size: 12px;
+    min-width: 100px;
   }
 }
