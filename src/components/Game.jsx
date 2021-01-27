@@ -165,10 +165,11 @@ export class Game extends Component {
   };
   handleZero = (item) => {
     const items = [...this.state.items];
+    const count = item.count;
     items[item.id].count = 0;
     this.setState((prevState) => {
       return {
-        funds: prevState.funds + item.cost * item.count,
+        funds: prevState.funds + item.cost * count,
         items,
       };
     });
