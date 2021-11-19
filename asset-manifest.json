@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/dragonSlayer/static/css/main.25bdbdbe.chunk.css",
+    "main.js": "/dragonSlayer/static/js/main.42181577.chunk.js",
+    "main.js.map": "/dragonSlayer/static/js/main.42181577.chunk.js.map",
+    "runtime-main.js": "/dragonSlayer/static/js/runtime-main.3c1dbf0a.js",
+    "runtime-main.js.map": "/dragonSlayer/static/js/runtime-main.3c1dbf0a.js.map",
+    "static/css/2.90a281a6.chunk.css": "/dragonSlayer/static/css/2.90a281a6.chunk.css",
+    "static/js/2.7d2f80f0.chunk.js": "/dragonSlayer/static/js/2.7d2f80f0.chunk.js",
+    "static/js/2.7d2f80f0.chunk.js.map": "/dragonSlayer/static/js/2.7d2f80f0.chunk.js.map",
+    "index.html": "/dragonSlayer/index.html",
+    "precache-manifest.2b2f551538af3ed9ceec21daf89e3fb8.js": "/dragonSlayer/precache-manifest.2b2f551538af3ed9ceec21daf89e3fb8.js",
+    "service-worker.js": "/dragonSlayer/service-worker.js",
+    "static/css/2.90a281a6.chunk.css.map": "/dragonSlayer/static/css/2.90a281a6.chunk.css.map",
+    "static/css/main.25bdbdbe.chunk.css.map": "/dragonSlayer/static/css/main.25bdbdbe.chunk.css.map",
+    "static/js/2.7d2f80f0.chunk.js.LICENSE.txt": "/dragonSlayer/static/js/2.7d2f80f0.chunk.js.LICENSE.txt",
+    "static/media/armor.png": "/dragonSlayer/static/media/armor.ea39ee31.png",
+    "static/media/bam.jpg": "/dragonSlayer/static/media/bam.b043a763.jpg",
+    "static/media/bomb.png": "/dragonSlayer/static/media/bomb.0d1f89a9.png",
+    "static/media/dragon.jpg": "/dragonSlayer/static/media/dragon.9d324895.jpg",
+    "static/media/flamethrower.png": "/dragonSlayer/static/media/flamethrower.e9e94c6a.png",
+    "static/media/font-awesome.min.css": "/dragonSlayer/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/ghost.png": "/dragonSlayer/static/media/ghost.80afcc43.png",
+    "static/media/gun.png": "/dragonSlayer/static/media/gun.99fd83c8.png",
+    "static/media/landmark.jpg": "/dragonSlayer/static/media/landmark.e230de63.jpg",
+    "static/media/lightning.jpg": "/dragonSlayer/static/media/lightning.4574b811.jpg",
+    "static/media/poison.png": "/dragonSlayer/static/media/poison.76669a5b.png",
+    "static/media/potion.png": "/dragonSlayer/static/media/potion.7af31335.png",
+    "static/media/raygun.jpg": "/dragonSlayer/static/media/raygun.f141faac.jpg",
+    "static/media/robot.png": "/dragonSlayer/static/media/robot.105446cc.png",
+    "static/media/shark.png": "/dragonSlayer/static/media/shark.f1db75e1.png",
+    "static/media/sword.jpg": "/dragonSlayer/static/media/sword.ff2b056e.jpg",
+    "static/media/warrior.png": "/dragonSlayer/static/media/warrior.53ad4d96.png",
+    "static/media/zombie.png": "/dragonSlayer/static/media/zombie.24a759cb.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3c1dbf0a.js",
+    "static/css/2.90a281a6.chunk.css",
+    "static/js/2.7d2f80f0.chunk.js",
+    "static/css/main.25bdbdbe.chunk.css",
+    "static/js/main.42181577.chunk.js"
+  ]
+}
