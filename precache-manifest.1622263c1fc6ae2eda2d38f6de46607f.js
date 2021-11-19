@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "649cade3cbe062005d199c3ed84971d0",
+    "revision": "9a62fe22b62daefdaa0a3d32d8d48c99",
     "url": "/dragonSlayer/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dragonSlayer/static/css/2.90a281a6.chunk.css"
   },
   {
-    "revision": "5163dd21b23c8a901620",
+    "revision": "2fe2bb878e2f518d9e97",
     "url": "/dragonSlayer/static/css/main.25bdbdbe.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dragonSlayer/static/js/2.7d2f80f0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5163dd21b23c8a901620",
-    "url": "/dragonSlayer/static/js/main.42181577.chunk.js"
+    "revision": "2fe2bb878e2f518d9e97",
+    "url": "/dragonSlayer/static/js/main.f75a375d.chunk.js"
   },
   {
     "revision": "821c9a5e5a957aeebdcc",
